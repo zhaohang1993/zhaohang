@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="shortcut icon" href="favicon.ico">
+    <link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/style.css?v=4.1.0" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/jdd_message.css" />
+</head>
+<body>
+	<div class="jdd_message">
+		<div class="row jmessage">
+			<div class="col-sm-4">
+				<span>客户编号：</span>
+				<input type="text">
+			</div>
+			<div class="col-sm-4">
+				<span>姓名：</span>
+				<input type="text">
+			</div>
+			<div class="col-sm-4">
+				<span>性　　别：</span>
+				<select name="" id="">
+					<option value="">男</option>
+					<option value="">女</option>
+				</select>
+			</div>
+			
+		</div>
+		<div class="row jmessage">
+			<div class="col-sm-4">
+				<span>生　　日：</span>
+				<input type="text">
+			</div>
+			<div class="col-sm-4">
+				<span>年龄：</span>
+				<span clsaa='age'>20</span>
+			</div>
+			<div class="col-sm-4">
+				<span>证件类型：</span>
+				<select name="" id="">
+					<option value="">省份证</option>
+					<option value="">户口簿</option>
+				</select>
+			</div>
+			
+		</div>
+		<div class="row jmessage">
+				<span class='jRemarks'>备  注：</span>		
+				<textarea name="" id=""></textarea>		
+		</div>
+	<div class="row tab-x">
+					<!-- 主体信息 -->
+					<div class="tabs-container">
+						<ul class="nav nav-tabs tabs-navjdd">
+							<li class="active"><a data-toggle="tab" href="#tab-5" aria-expanded="false">联系电话</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-6" aria-expanded="false">微信号</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-4" aria-expanded="false">微博号</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-7" aria-expanded="false">电子邮箱</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-8" aria-expanded="false">联系地址</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-9" aria-expanded="false">客户经理</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-10" aria-expanded="false">客户营销属性</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div id="tab-4" class="tab-pane bg-color-white acc_jdd_tab_div">
+								<!-- 新增表格 -->
+							<div class="jdd_add">
+								<p class='news4_add'><img src="img/add_ok.png" alt="">增加</p>
+							</div>
+								<!-- 表格 -->
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											
+											<div class="ibox-content">
+
+											<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>微博OPENID</th>
+															<th>微博账号</th>
+															<th>默认</th>
+															<th>最近通话时间</th>
+														</tr>
+													</thead>
+													<tbody class='tbody4'>
+														<tr>
+															<td contentEditable="true">微博</td>
+															<td contentEditable="true">微博账号</td>
+															<td contentEditable="true">默认</td>
+															<td contentEditable="true">操作</td>
+														</tr>
+												</tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>									
+								</div>									
+							</div>
+							<div id="tab-5" class="tab-pane active bg-color-white acc_jdd_tab_div">
+									<!-- 新增表格 -->
+									<div class="jdd_add">
+										<p class='news5_add'><img src="img/add_ok.png" alt="">增加</p>
+									</div>
+								<!-- 表格 -->
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											
+											<div class="ibox-content">
+											<table class="table table-hover" data-id='tel'> 
+													<thead>
+														<tr>
+															<th>联系电话</th>          
+															<th>分机号</th>
+															<th>电话类型</th>		
+															<th>归属地</th>
+															<th>更新人</th>
+															<th>更新时间</th>
+															<th>操作</th>
+															
+														</tr>
+													</thead>
+													<tbody class='tbody5'>
+														<tr>
+															<td contentEditable="true">联系电话</td>
+															<td contentEditable="true">分机号</td>
+															<td contentEditable="true">电话类型</td>
+															<td contentEditable="true">归属地</td>
+															<td contentEditable="true">更新人
+															</td>
+															<td contentEditable="true">更新时间
+															</td>
+															<td contentEditable="true">操作
+															</td>
+															
+														</tr>
+												</tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>
+									
+								</div>
+									
+							</div>
+
+							<div id="tab-6" class="tab-pane bg-color-white acc_jdd_tab_div">
+									<!-- 新增表格 -->
+							<div class="jdd_add">
+								<p class='news6_add'><img src="img/add_ok.png" alt="">增加</p>
+							</div>									
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											<div class="ibox-content">
+												<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>微信OPENID</th>
+															<th>微信账号</th>
+															<th>默认</th>
+															<th>最近通话时间</th>				
+														</tr>
+													</thead>
+													<tbody class='tbody6'>
+														<tr>
+															<td contentEditable="true">微信OPENID</td>
+															<td contentEditable="true">0192389234972938742</td>
+															<td contentEditable="true">1012</td>
+															<td contentEditable="true">操作</td>		
+														</tr>
+														
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="tab-7" class="tab-pane bg-color-white acc_jdd_tab_div">
+									<!-- 新增表格 -->
+								<div class="jdd_add">
+									<p class='news7_add'><img src="img/add_ok.png" alt="">增加</p>
+								</div>	
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											
+											<div class="ibox-content">
+
+											<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>电子邮箱地址</th>
+															<th>默认</th>
+															<th>默认</th>
+															<th>最近通话时间</th>
+															
+														</tr>
+													</thead>
+													<tbody class='tbody7'>
+														<tr>
+															
+															<td contentEditable="true">微博账号</td>
+															<td contentEditable="true">默认</td>
+															<td contentEditable="true">最近通信时间</td>
+															<td contentEditable="true">操作</td>
+															
+														</tr>
+												</tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>
+									
+								</div>							
+							</div>
+							<div id="tab-8" class="tab-pane bg-color-white acc_jdd_tab_div">
+									<!-- 新增表格 -->
+								<div class="jdd_add">
+									<p class='news8_add'><img src="img/add_ok.png" alt="">增加</p>
+								</div>	
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											
+											<div class="ibox-content">
+
+											<table class="table table-hover" data-id='address'>
+													<thead>
+														<tr>
+															<th>联系地址</th>
+															<th>更新人</th>
+															<th>更新时间</th>
+															<th>操作</th>
+															
+														</tr>
+													</thead>
+													<tbody class='tbody8'>
+														<tr>
+															
+															<td contentEditable="true">微博账号</td>
+															<td contentEditable="true">默认</td>
+															<td contentEditable="true">最近通信时间</td>
+															<td contentEditable="true">最近通信时间</td>
+															
+														</tr>
+												</tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>
+									
+								</div>
+									
+								
+							</div>
+							<div id="tab-9" class="tab-pane bg-color-white acc_jdd_tab_div">
+									<!-- 新增表格 -->
+								<div class="jdd_add">
+									<p class='news9_add'><img src="img/add_ok.png" alt="">增加</p>
+								</div>	
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											
+											<div class="ibox-content">
+
+											<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>客户经理工号</th>
+															<th>客户经理姓名</th>
+															<th>更新人</th>
+															<th>更新时间</th>
+															<th>操作</th>
+												
+														</tr>
+													</thead>
+													<tbody class='tbody9'>
+														<tr>
+															
+															<td contentEditable="true">Admin_PT</td>
+															<td contentEditable="true">平台管理员</td>
+															<td contentEditable="true">超级管理员</td>
+															<td contentEditable="true">2017-01-20 18:27:46</td>
+															<td contentEditable="true">操作</td>		
+														</tr>
+												</tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>
+									
+								</div>
+									
+								
+							</div>
+							<div id="tab-10" class="tab-pane bg-color-white acc_jdd_tab_div">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="ibox float-e-margins">
+											
+											<div class="jdd_checkbox">
+												<span class="ee"> <input type='checkbox' id='drop-remove' class="i-checks"  /> <label for='drop-remove'>销售勿扰</label></span>
+												
+											</div>
+											<div class="jdd_checkbox">
+												<span class="ee"> <input type='checkbox' id='drop1-remove' class="i-checks"  /> <label for='drop1-remove'>服务勿扰</label></span>
+												
+											</div>
+											
+										</div>
+									</div>
+									
+								</div>
+									
+								
+							</div>
+
+							
+						</div>
+					</div>
+					
+					
+					
+				</div>	
+
+	
+	
+	<div class="row jdd_submit">
+		<div class="col-sm-8"></div>
+		<div class="col-sm-4">
+			<button class=' btn btn-success'>保存</button>
+			<button class=' btn btn-default'>取消</button>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
+<script src="js/jquery.min.js?v=2.1.4"></script>
+<script src="js/checkbox.js"></script>     
+<script src="js/bootstrap.min.js?v=3.3.6"></script>
+<script src="js/plugins/iCheck/icheck.min.js"></script>
+<script src="js/jdd_message.js"></script>
+
+  

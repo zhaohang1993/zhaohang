@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html>
+<head id="header">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="renderer" content="webkit">
+    <title>座席系统 - 通话记录</title>
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> 
+	<link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+	
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+	<link rel="stylesheet" href="css/plugins/plyr/plyr.css">
+    <link href="css/acc.css?v=1.0.0" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jdd.css">	
+    <link href="css/plugins/jsTree/style.min.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+	<!--弹框-->	
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-3 tab-left">
+                <!-- 左侧接待单、通话记录列表 -->
+ 				<div class="tabs-container">
+                    <ul class="nav nav-tabs nav-tabs-if">
+                        <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true"> 我的接待单</a>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">外呼任务</a>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#tab-3" aria-expanded="false">所有通话记录</a>
+                                                </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane active">
+							<!-- 接待单记录TAB -->
+							<div class="Reception">
+								<input type="text" class="form-control" id="jddSearch" placeholder="请输入电话号码" >
+								<a href=" JavaScript:;" class='senior_search'>高级搜索</a>
+								<i class='fa fa-search'></i>
+								
+								
+							</div>
+                            <div class="panel-body">
+                            
+									<div class="row calllistline">
+										<div class="col-sm-9">
+											<strong>13810002000[北京市]</strong><br>
+											<strong>李四</strong><br>
+											<span>赵六 座席员[1003]</span>
+										</div>
+										<div class="col-sm-3">
+											08-16<br>00:09:39<br>
+											已挂断
+										</div>
+									</div>
+									
+									<div class="row calllistline">
+										<div class="col-sm-9">
+											<strong>13810002000[北京市]</strong><br>
+											<strong>李四</strong><br>
+											<span>赵六 座席员[1003]</span>
+										</div>
+										<div class="col-sm-3">
+											08-16<br>00:09:39<br>
+											已挂断
+										</div>
+									</div>
+									
+									<div class="row calllistline">
+										<div class="col-sm-9">
+											<strong>13810002000[北京市]</strong><br>
+											<strong>李四</strong><br>
+											<span>赵六 座席员[1003]</span>
+										</div>
+										<div class="col-sm-3">
+											08-16<br>00:09:39<br>
+											已挂断
+										</div>
+									</div>
+									
+									<div class="row calllistline">
+										<div class="col-sm-9">
+											<strong>13810002000[北京市]</strong><br>
+											<strong>李四</strong><br>
+											<span>赵六 座席员[1003]</span>
+										</div>
+										<div class="col-sm-3">
+											08-16<br>00:09:39<br>
+											已挂断
+										</div>
+									</div>
+									
+									<div class="row calllistline">
+										<div class="col-sm-9">
+											<strong>13810002000[北京市]</strong><br>
+											<strong>李四</strong><br>
+											<span>赵六 座席员[1003]</span>
+										</div>
+										<div class="col-sm-3">
+											08-16<br>00:09:39<br>
+											已挂断
+										</div>
+									</div>
+									
+									<div class="row calllistline">
+										<div class="col-sm-9">
+											<strong>13810002000[北京市]</strong><br>
+											<strong>李四</strong><br>
+											<span>赵六 座席员[1003]</span>
+										</div>
+										<div class="col-sm-3">
+											08-16<br>00:09:39<br>
+											已挂断
+										</div>
+									</div>
+									<!-- 分页 -->
+								<div class="row btn-group">
+									<button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i></button>
+									<button class="btn btn-white">1</button>
+									<button class="btn btn-white active">2</button>
+									<button class="btn btn-white">3</button>
+									<button class="btn btn-white">4</button>
+									<button class="btn btn-white">5</button>
+									<button class="btn btn-white">6</button>
+									<button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i></button>
+								</div>
+								
+								
+								
+                            </div>
+                            <!-- 高级搜索内容 1-->
+                            <div class="senior_search_content">
+								<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>客户名：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='亚联集团'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>电话：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='135667436877'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>坐席员：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='赵六'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>地区：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='北京'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>通话时长：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='00:00:00'>
+									</div>	
+                            	</div>
+
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>处理：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='135667436877'>
+									</div>	
+                            	</div>
+
+                            	<!-- 确定及取消 1 -->
+                            	<div class="row senior_search_btn">
+                            		 
+                					 <div class="col-sm-9 marginLeft"><button class=' btn btn-success'>确定</button><button class=' btn btn-default'>取消</button></div>
+                            	</div>
+
+
+                            	
+                            </div>
+                        </div>
+                        
+						<div id="tab-2" class="tab-pane">
+							<!-- 通话记录TAB -->
+							<div class="Reception">
+								<input type="text" class="form-control" id="jddSearch" placeholder="请输入电话号码" >
+								<a href=" JavaScript:;" class='senior_search'>高级搜索</a>
+								<i class='fa fa-search'></i>
+								<button>领取</button>
+								
+							</div>
+							
+                            <div class="panel-body">
+                            	              
+    								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>18678956673[天津市]</strong><br>
+										<strong>王五</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-15<br>10:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								<div class="row btn-group">
+									<button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i></button>
+									<button class="btn btn-white">1</button>
+									<button class="btn btn-white active">2</button>
+									<button class="btn btn-white">3</button>
+									<button class="btn btn-white">4</button>
+									<button class="btn btn-white">5</button>
+									<button class="btn btn-white">6</button>
+									<button class="btn btn-white">7</button>
+									
+									<button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i></button>
+								</div>
+
+											
+                            </div>
+                             <!-- 高级搜索内容 2-->
+                             <div class="senior_search_content">
+									<div class="row sen_con">
+                            		<div class="col-sm-3">
+										<strong>客户名：</strong>
+									</div>
+									<div class="col-sm-9">
+										<input type="text" value='亚联集团'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-3">
+										<strong>电话：</strong>
+									</div>
+									<div class="col-sm-9">
+										<input type="text" value='135667436877'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-3">
+										<strong>坐席员：</strong>
+									</div>
+									<div class="col-sm-9">
+										<input type="text" value='赵六'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-3">
+										<strong>地区：</strong>
+									</div>
+									<div class="col-sm-9">
+										<input type="text" value='北京'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-3">
+										<strong>通话时长：</strong>
+									</div>
+									<div class="col-sm-9">
+										<input type="text" value='00:00:00'>
+									</div>	
+                            	</div>
+
+                            	<div class="row sen_con">
+                            		<div class="col-sm-3">
+										<strong>处理：</strong>
+									</div>
+									<div class="col-sm-9">
+										<input type="text" value='135667436877'>
+									</div>	
+                            	</div>
+
+                            	<!-- 确定及取消 1 -->
+                            	<div class="row senior_search_btn">
+                   
+                					 <div class="col-sm-9 marginLeft"><button class=' btn btn-success'>确定</button><button class=' btn btn-default'>取消</button></div>
+                            	</div>
+
+
+                            	
+                            </div>
+                        </div>
+
+                        <div id="tab-3" class="tab-pane">
+							<!-- 通话记录TAB -->
+							<div class="Reception">
+								<input type="text" class="form-control" id="jddSearch" placeholder="请输入电话号码" >
+								<a href=" JavaScript:;" class='senior_search'>高级搜索</a>
+								<i class='fa fa-search'></i>																
+							</div>
+							
+                            <div class="panel-body">                          
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>18678956673[美国]</strong><br>
+										<strong>王五</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-15<br>10:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row calllistline">
+									<div class="col-sm-9">
+										<strong>13810002000[北京市]</strong><br>
+										<strong>李四</strong><br>
+										<span>赵六 座席员[1003]</span>
+									</div>
+									<div class="col-sm-3">
+										08-16<br>00:09:39<br>
+										已挂断
+									</div>
+								</div>
+								
+								<div class="row btn-group">
+									<button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i></button>
+									<button class="btn btn-white">1</button>
+									<button class="btn btn-white active">2</button>
+									<button class="btn btn-white">3</button>
+									<button class="btn btn-white">4</button>
+									<button class="btn btn-white">5</button>
+									<button class="btn btn-white">6</button>				
+									<button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i></button>
+								</div>
+							
+								
+                            </div>
+                             <!-- 高级搜索内容 2-->
+                             <div class="senior_search_content">
+								<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>客户名：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='亚联集团'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>电话：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='135667436877'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>坐席员：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='赵六'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>地区：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='北京'>
+									</div>	
+                            	</div>
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>通话时长：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='00:00:00'>
+									</div>	
+                            	</div>
+
+                            	<div class="row sen_con">
+                            		<div class="col-sm-4">
+										<strong>处理：</strong>
+									</div>
+									<div class="col-sm-8">
+										<input type="text" value='135667436877'>
+									</div>	
+                            	</div>
+
+                            	<!-- 确定及取消 1 -->
+                            	<div class="row senior_search_btn">
+                            
+                					 <div class="col-sm-9 marginLeft"><button class=' btn btn-success'>确定</button><button class=' btn btn-default'>取消</button></div>
+                            	</div>
+
+                            	
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+				
+            </div>
+            <div class="col-sm-9 tab-right">
+                <!-- 右侧通话记录详情 -->
+				
+				<div class="row fs20">
+					<!-- 客户信息行 -->
+					<div class="col-sm-4">
+						<span class="">10010</span> 
+						&nbsp;&nbsp;
+						<span class="fb">李四</span>
+						<a href="javascript:void(0)" class="fs14"><i class="fa fa-edit"></i></a>
+						&nbsp;&nbsp;
+						<select name="" id="">
+							<option value="">18610002000 - 北京市</option>
+							<option value="">18610002000 - 北京市</option>
+							<option value="">18610002000 - 北京市</option>
+							<option value="">18610002000 - 北京市</option>
+							
+						</select>
+						
+					</div>
+					<div class="col-sm-5 text-right">
+						<span class>该号码最近通话时间：2017-11-5 15:30:46</span>
+					</div>
+				</div>
+				<div class="row mb10">
+					<!-- 功能按钮行 -->
+					<div class="col-sm-12">
+						<button class="btn btn-success btn-circle acc_btn_circle" type="button" title="呼叫客户"><i class="fa fa-phone"></i></button>
+						<button class="btn btn-default btn-circle acc_btn_circle" type="button" title="发送邮件"><i class="fa fa-envelope"></i></button>
+						<button class="btn btn-default btn-circle acc_btn_circle" type="button" title="发送短信"><i class="fa fa-comment"></i></button>
+						<button class="btn btn-success btn-circle acc_btn_circle" type="button" title="客户信息"><i class="fa fa-user"></i></button>
+					</div>
+				</div>
+				
+				<div class="row">
+					<!-- 主体信息 -->
+					<div class="tabs-container">
+						<ul class="nav nav-tabs">
+							<li class="active"><a data-toggle="tab" href="#tab-5" aria-expanded="false">接待单</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-6" aria-expanded="false">接待单</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-8" aria-expanded="false">业务信息</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-4" aria-expanded="false">通话详情</a>
+							</li>
+							<li class=""><a data-toggle="tab" href="#tab-7" aria-expanded="false">工单</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div id="tab-4" class="tab-pane bg-color-white acc_jdd_tab_div">
+								<!-- 通话详情 -->
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>呼叫类型：</span> <span>外呼去电</span>
+									</div>
+									<div class="col-sm-3">
+										<span>主叫号码：</span> <span>010 33789086</span>
+									</div>
+									<div class="col-sm-6">
+										<span>被叫号码：</span> <span>18610002000</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">
+										<span>省份：</span> <span>北京市</span>
+									</div>
+									<div class="col-sm-9">
+										<span>城市：</span> <span>北京</span>
+									</div>
+								</div>
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>接通时间：</span> <span>2016-10-10 10:10:10</span>
+									</div>
+									<div class="col-sm-3">
+										<span>挂断时间：</span> <span>2016-10-10 10:15:50</span>
+									</div>
+									<div class="col-sm-6">
+										<span>通话时长：</span> <span>00:05:40</span>
+									</div>
+								</div>
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>排队时长：</span> <span>00:01:10</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="ibox float-e-margins">
+											<div class="ibox-title">
+												<h5>播放录音</h5>
+											</div>
+											<div class="ibox-content">
+												<div class="player player-audio stopped">
+													<audio>
+														<!-- Audio files -->
+														<source src="1.mp3" type="audio/mp3">
+
+														<!-- Fallback for browsers that don't support the <audio> element -->
+														您的浏览器不支持在线播放，请<a href="1.mp3">下载</a>
+													</audio>
+													<div class="player-controls">
+														<div class="player-progress">
+															<label for="seek8990" class="sr-only">Seek</label>
+															<input id="seek8990" class="player-progress-seek" type="range" min="0" max="100" step="0.5" value="0" data-player="seek">
+															<progress class="player-progress-played" max="100" value="0"><span>0</span>% 播放中</progress>
+															<progress class="player-progress-buffer" max="100" value="0.09"><span>0.09</span>% 缓冲中</progress>
+														</div>
+														<span class="player-controls-left">
+															<button type="button" data-player="restart">重新播放
+																<!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-restart"></use></svg><span class="player-tooltip">重新播放</span> -->
+															</button>
+															<button type="button" data-player="rewind">后退10秒
+																<!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-rewind"></use></svg><span class="player-tooltip">后退10秒</span> -->
+															</button>
+															<button type="button" data-player="play" aria-label="播放">播放
+																<!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg><span class="player-tooltip">播放</span> -->
+															</button>
+															<button type="button" data-player="pause">暂停
+																<!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pause"></use></svg><span class="player-tooltip">暂停</span> -->
+															</button>
+															<button type="button" data-player="fast-forward">快进10秒
+																<!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fast-forward"></use></svg><span class="player-tooltip">快进10秒</span> -->
+															</button>
+															<span class="player-time">
+																<span class="sr-only">当前时间</span>
+																<span class="player-current-time">00:00</span>
+															</span>
+															<span class="player-time">
+																<span class="sr-only">持续时间</span>
+																<span class="player-duration">03:57</span>
+															</span>
+														</span>
+														<span class="player-controls-right">
+															<button type="button" data-player="mute" aria-pressed="false">静音
+																<svg class="icon-muted"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-muted"></use></svg>
+																<!-- <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-volume"></use></svg>
+																<span class="player-tooltip">静音</span> -->
+															</button>
+															<label for="volume8990" class="sr-only">音量</label>
+															<input id="volume8990" class="player-volume" type="range" min="0" max="10" value="5" data-player="volume">
+															<button type="button" data-player="fullscreen">
+																<svg class="icon-exit-fullscreen"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-exit-fullscreen"></use></svg>
+																<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-enter-fullscreen"></use></svg>
+																<span class="player-tooltip">全屏</span>
+															</button>
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- 表格 -->
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="ibox float-e-margins">
+											<div class="ibox-title">
+												<h5>当前通话接待单记录</h5>
+											</div>
+											<div class="ibox-content">
+
+												<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>分机号</th>
+															<th>工号</th>
+															<th>开始时间</th>
+															<th>结束时间</th>
+															<th>通话时长</th>
+															<th>播放</th>
+															
+
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>10192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>转接</td>
+															<td>转接</td>
+															<td class='fa fa-play play_cen'></td>
+															
+														</tr>
+														<tr>
+															<td>10192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>	
+															<td>转接</td>
+															<td>转接</td>
+															<td class='fa fa-play play_cen'></td>
+															
+														</tr>
+														<tr>
+															<td>10192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>转接</td>
+															<td>转接</td>
+															<td class='fa fa-play play_cen'></td>
+															
+														</tr>
+														<tr>
+															<td>10192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>转接</td>
+															<td>转接</td>
+															<td class='fa fa-pause play_cen'></td>
+															
+														</tr>
+
+													</tbody>
+												</table>
+											</div>
+											
+										</div>
+									</div>
+									
+								</div>
+									
+							</div>
+
+							<div id="tab-5" class="tab-pane active bg-color-white acc_jdd_tab_div">
+								<!-- 接待单 -->
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>座席工号：</span> <span>001001</span>
+									</div>
+									<div class="col-sm-3">
+										<span>座席姓名：</span> <span>王五</span>
+									</div>
+									<div class="col-sm-3">
+										<span>技能组：</span> <span>咨询组</span>
+									</div>
+									<div class="col-sm-2 text-right">
+										<button class="btn btn-success " type="button"><i class="fa fa-check"></i>&nbsp;&nbsp;<span class="bold">保存</span></button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">
+										<span>接入时间：</span> <span>2016-10-10 10:10:10</span>
+									</div>
+									<div class="col-sm-3">
+										<span>转出/挂断时间：</span> <span>2016-10-10 10:15:50</span>
+									</div>
+									<div class="col-sm-6">
+										<span>通话时长：</span> <span>00:05:40</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<span>业务类型：</span> 
+										<a class="btn btn-info btn-rounded" href="javascript:void(0)" title="咨询"> 咨询 <i class="fa fa-times acc_ywlx_close" title="删除"></i></a>
+
+										<a class="btn btn-info btn-rounded add" href="javascript:void(0)" title="订购"> 订购 <i class="fa fa-times acc_ywlx_close" title="删除"></i></a>
+
+										<a class="btn btn-info btn-rounded btn-outline" href="javascript:void(0)" title="增加" id='Popup'><i class="fa fa-plus"></i></a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<span>备注信息：</span>
+									</div>
+									<div class="col-xs-7">
+										<textarea name="" class="form-control "></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<span>处理状态：</span>
+									</div>
+									<div class="col-xs-7">
+										<select class="form-control" name="">
+											<option value="">--请选择--</option>
+											<option value="">回呼</option>
+											<option value="">完成</option>
+											<option value="">工单</option>
+											<option value="">未接通</option>
+										</select>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<span>回呼时间：</span>
+									</div>
+									<div class="col-xs-7">
+										<input class="form-control layer-date" placeholder="YYYY-MM-DD hh:mm:ss" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<span>自助操作：</span> <span>中文 -> 公司介绍 -> 业务介绍 -> 人工服务 -> 业务咨询</span>
+									</div>
+								</div>
+								<div class="row">&nbsp;</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="ibox float-e-margins">
+											<div class="ibox-title">
+												<h5>当前通话接待单记录</h5>
+											</div>
+											<div class="ibox-content">
+
+												<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>#</th>
+															<th>接待单编号</th>
+															<th>座席工号</th>
+															<th>座席姓名</th>
+															<th>接入时间</th>
+															<th>处理状态</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+								
+							</div>
+
+							<div id="tab-6" class="tab-pane bg-color-white acc_jdd_tab_div">	
+								<!-- 接待单 -->
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>座席工号：</span> <span>001001</span>
+									</div>
+									<div class="col-sm-3">
+										<span>座席姓名：</span> <span>王五</span>
+									</div>
+									<div class="col-sm-3">
+										<span>技能组：</span> <span>咨询组</span>
+									</div>
+									<div class="col-sm-2 text-right">
+										<button class="btn btn-success " type="button"><i class="fa fa-check"></i>&nbsp;&nbsp;<span class="bold">保存</span></button>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-3">
+										<span>接入时间：</span> <span>2016-10-10 10:10:10</span>
+									</div>
+									<div class="col-sm-3">
+										<span>转出/挂断时间：</span> <span>2016-10-10 10:15:50</span>
+									</div>
+									<div class="col-sm-6">
+										<span>通话时长：</span> <span>00:05:40</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<span>业务类型：</span> 
+										<!-- <a class="btn btn-info btn-rounded" href="javascript:void(0)"> 咨询 <i class="fa fa-times acc_ywlx_close" title="删除"></i></a>
+										<a class="btn btn-info btn-rounded" href="javascript:void(0)"> 订购 <i class="fa fa-times acc_ywlx_close" title="删除"></i></a>
+										<a class="btn btn-info btn-rounded btn-outline" href="javascript:void(0)" title="增加"><i class="fa fa-plus"></i></a> -->
+										<span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<span>备注信息：</span>
+									</div>
+									<div class="col-xs-7">
+										<!-- <textarea name="" class="form-control "></textarea> -->
+										<select class="form-control" name="">
+											<option value="">--请选择--</option>
+											<option value="">回呼</option>
+											<option value="">完成</option>
+											<option value="">工单</option>
+											<option value="">未接通</option>
+										</select>
+
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<span>处理状态：</span>
+									</div>
+									<div class="col-xs-7">
+										<select class="form-control" name="">
+											<option value="">--请选择--</option>
+											<option value="">回呼</option>
+											<option value="">完成</option>
+											<option value="">工单</option>
+											<option value="">未接通</option>
+										</select>
+									</div>
+								</div>
+								<!-- 复选框 -->
+								<div class="row">
+									<div class="col-xs-1">
+										
+									</div>
+									<div class="col-xs-11">
+										 <span class="disturb">
+		                   					 <input type='checkbox' id='drop-remove' class="i-checks"  />
+		                    				<label for='drop-remove'>销售勿扰</label>
+              							</span>
+							              <span class="disturb">
+							                    <input type='checkbox' id='drop-remove1' class="i-checks" />
+							                    <label for='drop-remove1'>服务勿扰</label>
+							             </span>
+										
+									</div>
+								</div>
+
+
+								<div class="row">
+									<div class="col-xs-1">
+										<span>回呼时间：</span>
+									</div>
+									<div class="col-xs-7">
+										<input class="form-control layer-date" placeholder="YYYY-MM-DD hh:mm:ss" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-1">
+										<span>备注信息：</span>
+									</div>
+									<div class="col-xs-7">
+										<textarea name="" class="form-control ">备注信息：</textarea>
+										
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 record">
+										<!-- <span>自助操作：</span> <span>中文 -> 公司介绍 -> 业务介绍 -> 人工服务 -> 业务咨询</span> -->
+										<span>客户近十日外呼通话记录</span>
+									</div>
+								</div>
+								<div class="row">&nbsp;</div>
+								<div class="row">
+									<div class="col-sm-8">
+										<div class="ibox float-e-margins">
+											<div class="ibox-title">
+												<h5>当前通话接待单记录</h5>
+											</div>
+											<div class="ibox-content">
+
+												<table class="table table-hover">
+													<thead>
+														<tr>
+															<th>#</th>
+															<th>接待单编号</th>
+															<th>座席工号</th>
+															<th>座席姓名</th>
+															<th>接入时间</th>
+															<th>处理状态</th>
+														</tr>
+													</thead>
+													<tbody>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+														<tr>
+															<td>1</td>
+															<td>0192389234972938742</td>
+															<td>1012</td>
+															<td>赵六</td>
+															<td>2016-10-10 09:10:50</td>
+															<td>转接</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="tab-7" class="tab-pane bg-color-white acc_jdd_tab_div">	
+								<!-- 工单 -->423334343
+									
+								
+							</div>
+							<div id="tab-8" class="tab-pane bg-color-white acc_jdd_tab_div">	
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>座席工号：</span> <span>001001</span>
+									</div>
+									<div class="col-sm-3">
+										<span>座席姓名：</span> <span>王五</span>
+									</div>
+									<div class="col-sm-3">
+										<span>技能组：</span> <span>咨询组</span>
+									</div>
+									
+								</div>
+								<div class="row ">
+									<div class="col-sm-3">
+										<span>座席工号：</span> <span>001001</span>
+									</div>
+									<div class="col-sm-3">
+										<span>座席姓名：</span> <span>王五</span>
+									</div>
+									<div class="col-sm-3">
+										<span>技能组：</span> <span>咨询组</span>
+									</div>
+									
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<span>业务字段：</span><span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<span>活动话术：</span>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12">
+										<span>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx<br />xxxxxxxxxxxxxxxxxxxxxxxx</span>
+									</div>
+								</div>
+								
+									
+								
+							</div>
+							
+
+							
+						</div>
+					</div>
+					
+					
+					
+				</div>
+				
+				
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/checkbox.js"></script>  
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
+    
+    <script src="js/plugins/layer/layer.min.js"></script>  
+    
+    <script src="js/plugins/jsTree/jstree.min.js"></script>
+    <script src="js/jdd.js"></script>
+</body>
+</html>
+

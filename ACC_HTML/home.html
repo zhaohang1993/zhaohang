@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head id="header">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="renderer" content="webkit">
+    <title>座席系统 - 主页</title>
+    
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> 
+	<link href="css/bootstrap.min14ed.css?v=3.3.6" rel="stylesheet">
+    <link href="css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
+    <link href="css/style.min862f.css?v=4.1.0" rel="stylesheet">
+    <link rel="stylesheet" href="css/home.css" />
+  
+</head>
+<style>
+	
+</style>
+
+<body class="gray-bg">	
+    <div class="wrapper wrapper-content">
+        <div class="row">	        	
+            <div class="col-sm-6">
+                <div class="ibox float-e-margins">
+                    <div class="home-Bigtitle">
+                        <h4>当日座席指标项</h4> 
+                        <div class="ibox-tools">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index-2.html#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user">
+                                <li><a href="index-2.html#">选项1</a>
+                                </li>
+                                <li><a href="index-2.html#">选项2</a>
+                                </li>
+                            </ul>  
+                        </div>
+                    </div>                                    
+                  <div class="ibox-content ibox-content-bg">
+                  	<div class="row home_list_top">
+                  		<div class="col-sm-5 ibox-content-bff">
+                  			<h4>客户来电</h4>
+	                  		<ul class="">
+								<p><li id="telTotal">电话总数：100个</li></p>
+									<p><li id="talkTimeTotal">总通话时长：5小时58分25秒</li></p>
+									<p><li id="talkTimeAvg">平均通话时长：58秒</li></p>
+									<p><li id="satisfactionAvg">平均满意度：3</li></p>
+									<p><li id="rollOutTelNum">转出电话数：1</li></p>
+							</ul>             		
+                  		</div>
+                  		<div class="col-sm-5 ibox-content-bff">
+                  			<h4>主动外呼</h4>
+	                  		<ul class="">
+									<p><li id="telTotal">电话总数：100个</li></p>
+									<p><li id="talkTimeTotal">总通话时长：5小时58分25秒</li></p>
+									<p><li id="talkTimeAvg">平均通话时长：58秒</li></p>
+									<p><li id="satisfactionAvg">平均满意度：3</li></p>
+									<p><li id="rollOutTelNum">转出电话数：1</li></p>
+							</ul>
+                  			
+                  			
+                  		</div>
+                  		
+                  	</div>
+                  	<div class="row home_list_top">
+                  		<div class="col-sm-5 ibox-content-bff">
+                  			<h4>客户来电</h4>
+	                  		<ul class="">
+									<p><li id="telTotal">电话总数：100个</li></p>
+									<p><li id="talkTimeTotal">总通话时长：5小时58分25秒</li></p>
+									<p><li id="talkTimeAvg">平均通话时长：58秒</li></p>
+									<p><li id="satisfactionAvg">平均满意度：3</li></p>
+									<p><li id="rollOutTelNum">转出电话数：1</li></p>
+							</ul>             		
+                  		</div>
+                  		<div class="col-sm-5 ibox-content-bff">
+                  			<h4>主动外呼</h4>
+	                  		<ul class="">
+									<p><li id="telTotal">电话总数：100个</li></p>
+									<p><li id="talkTimeTotal">总通话时长：5小时58分25秒</li></p>
+									<p><li id="talkTimeAvg">平均通话时长：58秒</li></p>
+									<p><li id="satisfactionAvg">平均满意度：3</li></p>
+									<p><li id="rollOutTelNum">转出电话数：1</li></p>
+							</ul>                  			                  	
+                  		</div>                 		
+                  	</div>						
+                  </div>                                    
+                </div>   
+                   <!--tab1    -->
+ 				<div class="tabs-container tab_list">
+ 					<div class="home-Bigtitle">
+                        <h4>客服服务排名1111111111</h4>
+                   	</div>
+                    <ul class="nav nav-tabs nav-tabs-if">
+                        <li class="active"><a data-toggle="tab" href="#tab-1" aria-expanded="true"> 图形</a>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#tab-2" aria-expanded="false">列表</a>
+                        </li>               
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane active">
+							
+                            <div class="panel-body">
+                            	<!--图形一-->
+                             <div class="ibox-content">
+                       			 <div class="echarts" id="echarts-pie-chart"></div>
+                    		</div>
+																
+								
+                            </div>
+                            </div>
+                        
+						<div id="tab-2" class="tab-pane">
+                            <div class="panel-body">
+                            	 <div class="ibox-content text-center">
+                    				<span id="sparkline9"></span>
+                    			</div>
+											
+                            </div>                       
+                    </div>
+                </div>
+				
+            </div> 
+            	<!--tab2  -->
+            		<div class="tabs-container tab_list">
+            			 <div class="home-Bigtitle">
+                        		<h4>客服服务排名222222222222</h4>
+                   		</div>
+	                    <ul class="nav nav-tabs nav-tabs-if">
+	                        <li class="active"><a data-toggle="tab" href="#tab-3" aria-expanded="true"> 图形</a>
+	                        </li>
+	                        <li class=""><a data-toggle="tab" href="#tab-4" aria-expanded="false">列表</a>
+	                        </li>               
+	                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-3" class="tab-pane active">                       
+							
+                            <div class="panel-body">
+                            	<!--图形一-->
+                             <div class="ibox-content">
+                       			 <!--图形一-->
+                               <div class="echarts" id="echarts-bar-chart"></div>	
+                    		</div>
+																
+								
+                            </div>
+                            </div>
+                        
+						<div id="tab-4" class="tab-pane">
+                            <div class="panel-body">
+                            	 <div class="ibox-content text-center">
+                    				11111111111111111111111111111111
+                    			</div>
+											
+                            </div>                       
+                    </div>
+                </div>
+				
+            </div>                              
+            </div>
+            <div class="col-sm-6">
+                <div class="tabs-container">
+                	<div class="home-Bigtitle">
+                        	<h4>客服服务排名</h4>
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active home_padding"><a data-toggle="tab" href="#tab-5" aria-expanded="true">待办工单</a><span class='home_title'>10</span>
+                        </li>
+                        <li class=""><a data-toggle="tab" href="#tab-6" aria-expanded="false">联系计划</a>
+                        </li>
+                         <li class=""><a data-toggle="tab" href="#tab-7" aria-expanded="false">信息公告</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content home_content">
+                        <div id="tab-5" class="tab-pane active">                        	
+                        	<div class="row">  
+                         		<div class="ibox-content">	
+                         			<p><span>待处理工单</span><span class='home_number'>2</span></p>
+                         			<p><span>待处理工单</span><span class='home_number'>2</span></p>   
+	                           </div>
+                          </div>              	                           
+                        </div>
+                         <div id="tab-7" class="tab-pane">
+                         	<div class="row">  
+                         		<div class="ibox-content">		                       
+		                          	<table class="table table-hover circle_table">
+		                          		<tbody>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>信用卡营销2期</td>
+		                          				<td>跟进</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>信用卡营销2期</td>
+		                          				<td>跟进</td>
+		                          			</tr>		                         
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>信用卡营销2期</td>
+		                          				<td>跟进</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>信用卡营销2期</td>
+		                          				<td>跟进</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>信用卡营销2期</td>
+		                          				<td>跟进</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>信用卡营销2期</td>
+		                          				<td>跟进</td>
+		                          			</tr>
+		                          		</tbody>		                       		                          		
+		                          	</table>	
+		                          	<div class="row btn-group home_btn">
+										<button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i></button>
+										<button class="btn btn-white">1</button>
+										<button class="btn btn-white active">2</button>
+										<button class="btn btn-white">3</button>
+										<button class="btn btn-white">4</button>
+										<button class="btn btn-white">5</button>
+										<button class="btn btn-white">6</button>				
+										<button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i></button>
+									</div>
+	                           </div>
+                           </div>
+                                           
+                        </div>
+                        <div id="tab-6" class="tab-pane">
+                        	<div class="row">  
+                         			<div class="ibox-content">		                       
+		                          	<table class="table table-hover circle_table">
+		                          		<tbody>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>xxxxxxxxxxxxxxxxxxxxxx</td>
+		                          				
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>xxxxxxxxxxxxxxxxxxxxxx</td>
+		                          			</tr>		                         
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>xxxxxxxxxxxxxxxxxxxxxx</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>xxxxxxxxxxxxxxxxxxxxxx</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>xxxxxxxxxxxxxxxxxxxxxx</td>
+		                          			</tr>
+		                          			<tr>		                          			                        
+		                          				<td><span></span>今天</td>
+		                          				<td class='home_number'>4:30</td>
+		                          				<td>张三</td>
+		                          				<td>xxxxxxxxxxxxxxxxxxxxxx</td>
+		                          			</tr>
+		                          		</tbody>		                       		                          		
+		                          	</table>
+		                          
+		                          	 	<p>已过期 10</p>
+		                          		
+		                          		<div class="row btn-group home_btn">
+											<button type="button" class="btn btn-white"><i class="fa fa-chevron-left"></i></button>
+											<button class="btn btn-white">1</button>
+											<button class="btn btn-white active">2</button>
+											<button class="btn btn-white">3</button>
+											<button class="btn btn-white">4</button>
+											<button class="btn btn-white">5</button>
+											<button class="btn btn-white">6</button>				
+											<button type="button" class="btn btn-white"><i class="fa fa-chevron-right"></i></button>												                          		
+		                          	</div>		           
+	                           </div>
+                           </div>
+
+                           
+                        </div>
+                        
+
+
+                </div>
+            </div>
+
+
+			<div class="home-Bigtitle">
+                      <h4>通知公告</h4>
+             </div>
+             <div class="row">
+             	<ul class="home_notice">
+					<p><li id="telTotal" data-index="'4" data-url="jdd.html"><b></b>电话总数：100个电话总数：100个电话总数：100个</li><span class='fa fa-angle-right'> </span></p>
+					<a href="javascript:parent.createTab('摆渡','jdd.html');" data-index="5" id="al1" title="5"><p><li id="talkTimeTotal"><b></b>电话总数：100个 </li><span class='fa fa-angle-right'> </span></p></a>
+					<a href="index_acc2.html?4" data-index="4"><p><li id="talkTimeAvg"><b></b>电话总数：100个 </li><span class='fa fa-angle-right'> </span></p></a>
+					<a href="jdd_message.html" data-index="4"><p><li id="satisfactionAvg"><b></b>电话总数：100个 </li><span class='fa fa-angle-right'> </span></p></a>
+					<a href="Popup.html" data-index="5"><p><li id="rollOutTelNum"><b></b>电话总数：100个 </li><span class='fa fa-angle-right'> </span></p></a>
+				</ul>
+             	
+             </div>
+           
+             
+        </div>
+    </div>
+    <a id="back-top" style="position:fixed;bottom:20px;right:40px;width:40px;"><img src="img/back-top.png" alt="回到顶部"></a>
+         
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+    <!-- 图形的引入 -->
+    <script src="js/plugins/echarts/echarts-all.js"></script>
+    <script src="js/plugins/peity/jquery.peity.min.js"></script>
+ 	<script src="js/content.min.js?v=1.0.0"></script>
+   	<script src="js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="js/plugins/easypiechart/jquery.easypiechart.js"></script>
+	<script src="js/plugins/sparkline/jquery.sparkline.min.js"></script>
+	
+
+    <script>
+			/*var cols=document.querySelectorAll(".J_menuItem");
+			console.log(cols)
+			$(".home_notice").on("click","li",function(){
+				console.log($(this).parent("a").attr("href"));
+				var ind=$(this).parent("a").data("index")
+				var arr=$(".J_menuItem").eq(0)
+				console.log(arr)
+
+
+			})*/
+			/*$(".home_notice li").on("click",function(){
+				console.log($(this).data('index'))
+				var url=$(this).data('url');
+				console.log(url)
+				location.href=url;
+				var arr=$("#side-menu >li").children("a")
+				
+			})*/
+
+			$
+
+
+
+    		//点击加载更多按钮
+    		function showMore(){
+			    	$("#addData").html($("#cashItem").html());
+			    	$('#addData').removeClass('hidden');
+
+			   }
+        $(document).ready(function(){
+        	WinMove();
+        	//工单饼状图
+        	$(function() {
+        			var l = echarts.init(document.getElementById("echarts-pie-chart")),
+					    u = {
+					        tooltip: {
+					            trigger: "item",
+					            formatter: "{a} <br/>{b} : {c} ({d}%)"
+					        },
+					        legend: {
+					            orient: "vertical",
+					            x: "left",
+					            data: ["已下工单", "未决工单", "待办工单"]
+					        },
+					        calculable: !0,
+					        series: [{
+					            name: "数据：",
+					            type: "pie",
+					            radius: "55%",
+					            center: ["50%", "60%"],
+					            data: [{
+					                value: 60,
+					                name: "已下工单"
+					            },
+					            {
+					                value: 20,
+					                name: "未决工单"
+					            },
+					            {
+					                value: 20,
+					                name: "待办工单"
+					            }]
+					        }]
+					    };
+					    l.setOption(u),
+					    $(window).resize(l.resize);
+        	});
+        	//当前座席各时段电话量曲线图
+        	$(function() {
+        		$("#sparkline9").sparkline([34, 43, 43, 35, 44, 32, 15, 22, 46, 33, 86, 54, 73, 53, 12, 53, 23, 65, 23, 63, 53, 42, 34, 56, 76, 15, 54, 23, 44], {
+			        type: "line",
+			        lineWidth: 1,
+			        height: "200px",
+			        width:"300px",
+			        lineColor: "#17997f",
+			        fillColor: "#ffffff"
+    				})
+        	});
+        	//当日座席接听电话总量排名柱状图
+        	$(function() {
+        			var t = echarts.init(document.getElementById("echarts-bar-chart")),
+					    n = {
+					        
+					        tooltip: {
+					            trigger: "axis"
+					        },
+					        grid: {
+					            x: 30,
+					            x2: 40,
+					            y2: 24
+					        },
+					        calculable: !0,
+					        xAxis: [{
+					            type: "category",
+					            data: ["1时", "2时", "3时", "4时", "5时", "6时", "7时", "8时", "9时", "10时", "11时", "12时", "13时", "14时", "15时", "16时", "17时", "18时", "19时", "20时", "21时", "22时", "23时", "24时"]
+					        }],
+					        yAxis: [{
+					            type: "value"
+					        }],
+					        series: [{
+					            name: "接听量",
+					            type: "bar",
+					            data: [8, 3, 3, 6, 2, 7,6, 8, 12, 12, 18, 25,30, 16, 17, 43, 32, 22,33, 22, 16, 12, 18, 7],
+					            markLine: {
+					                data: [{
+					                    type: "average",
+					                    name: "平均值"
+					                }]
+					            }
+					        }]
+					    };
+					    t.setOption(n),
+					    window.onresize = t.resize;
+        	});
+					
+					$(window).scroll(function () {
+			        // 获得窗口滚动上去的距离
+			        var ling = $(document).scrollTop();
+			        // 在标题栏显示滚动的距离
+			        //document.title = ling;
+			        // 如果滚动距离大于1000的时候让滚动框出来
+			        if (ling > 1000) {
+			            $('.back-top').css({
+			                display: "block"
+			               
+			            });
+			        } else if (ling < 1000) {
+			            $('.back-top').css({
+			                display: "none"
+			            });
+			        }
+			    })
+			    //    点击返回顶部
+			    $("#back-top").click(function () {
+			        $("html,body").animate({scrollTop: 0}, 500);
+			    });
+
+
+		
+			  
+        	/*setTimeout(function(){$.gritter.add({title:"您有2条未读信息",text:'请前往<a href="mailbox.html" class="text-warning">收件箱</a>查看今日任务',time:10000})},2000)*/$(".chart").easyPieChart({barColor:"#f8ac59",scaleLength:5,lineWidth:4,size:80});$(".chart2").easyPieChart({barColor:"#1c84c6",scaleLength:5,lineWidth:4,size:80});var data1=[[0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,30],[11,10],[12,13],[13,4],[14,3],[15,3],[16,6]];var data2=[[0,1],[1,0],[2,2],[3,0],[4,1],[5,3],[6,1],[7,5],[8,2],[9,3],[10,2],[11,1],[12,0],[13,2],[14,8],[15,0],[16,0]];$("#flot-dashboard-chart").length&&$.plot($("#flot-dashboard-chart"),[data1,data2],{series:{lines:{show:false,fill:true},splines:{show:true,tension:0.4,lineWidth:1,fill:0.4},points:{radius:0,show:true},shadowSize:2},grid:{hoverable:true,clickable:true,tickColor:"#d5d5d5",borderWidth:1,color:"#d5d5d5"},colors:["#1ab394","#464f88"],xaxis:{},yaxis:{ticks:4},tooltip:false})});
+		
+
+
+    </script>
+    
+</body>
+
+
+<!-- Mirrored from www.zi-han.net/theme/hplus/index_v2.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Jan 2016 14:18:46 GMT -->
+</html>

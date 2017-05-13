@@ -1,0 +1,108 @@
+/* 电话改善 */
+	.Reception{
+		width: 99.8%;
+		border: 1px solid #eee;
+		background: #fff;
+	}
+	.Reception input{
+		display: inline-block;
+		width: 170px;
+		border: none;
+
+	}
+	.Reception button{
+		margin-left: 8px;
+	}
+	.Reception a{
+		display: inline-block;
+		text-decoration: underline;
+		padding-right: 20px;
+	}
+	.Reception i{
+		display: inline-block;
+		font-size: 16px;
+	}
+	/* 高级搜索内容 */
+	.panel-body{
+		position: relative;
+	}
+	.senior_search_content{
+		position: absolute;
+		left:17px;
+		top:76px;
+		width: 90.5%;
+		background: #fff;
+		border: 1px solid #eee;
+		display: none;
+	}
+	.senior_search_content input{
+		width: 100%;
+		margin: 5px 0;
+		border: none;
+		border: 1px solid #eee;
+		padding-left: 10px;
+	}
+	.sen_con{
+		line-height: 30px;
+		padding-left: 20px;
+	}
+	.senior_search_btn {
+		margin: 20px 0;
+	}
+	.senior_search_btn .marginLeft{
+		margin-left: 130px;
+	}
+	.senior_search_btn .marginLeft button{
+		margin-left: 10px;
+	}
+
+
+
+	.disturb{
+      width: 70px;
+    	margin-right: 20px;
+      display: inline-block;
+      font-weight: normal;
+  }
+  .disturb input{
+  	position: relative;
+  	display: inline-block;
+  }
+   .disturb label{
+   	display: inline-block;
+   	position: absolute;
+   	top:0;
+   }
+  
+
+	
+	/* table 表格 */
+	
+    .ibox-content thead tr{
+    	border: 1px solid #eee;
+    }
+    .ibox-content thead th{
+    	border: 1px solid #eee;
+    }
+    .ibox-content tr{
+    	border: 1px solid #eee;
+    }
+    .ibox-content td{
+    	border: 1px solid #eee;
+    }
+    .record{
+    	padding-top: 10px;
+    	font-weight: bold;	
+    }
+    .play_cen{
+    	font-size: 16px;
+    	margin-left: 10px;
+    	border: none;
+    }
+    .table .fa{
+    	border: none;
+    	cursor: pointer;
+    }
+  .table .fa.fa_color{
+  	color:#3498db;
+  }

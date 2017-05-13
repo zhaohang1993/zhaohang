@@ -1,0 +1,40 @@
+.Outdialing_margin{
+	display: inline-block;
+	
+}
+.Outdialing_cen{
+	margin-left: 25px;
+	margin-top: 30px;
+	
+}
+#Outdialing_sel{
+	width:170px;
+	height: 30px;
+}
+.Outdialing_btn{
+	display: inline-block;
+	margin-left:10px;
+		
+}
+.Outdialing table{
+	border: 1px solid #ccc;
+	text-align: center;
+	margin-top:20px;
+}
+.Outdialing table thead th{
+	text-align: center;
+}
+.Outdialing table tr td{
+	border: 1px solid #ccc;
+	
+}
+.Outdialing .btn-margin{
+	margin-left: 20px;
+}
+.Outdialing_none{
+	border-top:none;
+	padding-top:0;
+	
+}
+
+	

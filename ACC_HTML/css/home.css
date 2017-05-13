@@ -1,0 +1,108 @@
+   .top-img{
+        	background-image:url("img/back-top.png");
+            position:fixed;
+            bottom:20px;
+            right:20px;
+            width:10px;
+        }
+        .home-Bigtitle{
+        	margin: 20px 0;
+        }
+        .home_list_top{
+        	margin-top: 15px;
+        }
+        .home_list_top h4{
+        	text-align: center;
+        	line-height: 35px;
+        	background:#DFDFDF ;
+        	margin: 0;
+        	
+        }
+         .home_list_top ul{
+         	margin-left: 0px;
+         }
+         .ibox-content-bg{
+         	background: none;
+         	border: none;
+         	padding: 0;
+         }
+         .ibox-content-bff{
+         	background: #fff;
+         	margin:0 26px;
+         	padding: 0;
+         	
+         }
+         .tab_list{
+         	margin-left: 8px;
+         }
+         .circle_table tbody tr{
+         	border: none;
+         }
+         .circle_table tbody tr td{
+         	border: none;
+         }
+       	.circle_table td span{
+         	width: 4px;
+         	height: 4px;
+         	background: #666;
+         	border-radius: 100%;
+         	display: inline-block;
+         	margin-right:20px;
+         }
+         .home_btn{
+         	margin-left: 280px;
+         }
+         .home1_btn{
+         	text-align: right;
+         }
+         .home_number{
+         	margin-left: 80px;
+         	color:#1080BF;
+         	text-decoration: underline;
+         }
+         .home_padding{
+         	padding-left: 0px;
+         }
+         .home_content{
+         	margin-left: 15px;
+         }
+         .home_title{
+         	width:16px;
+         	height:16px;
+         	background: red;
+         	border-radius: 100%;
+         	color:#fff;
+         	position:absolute;
+         	right:0;
+         	top:0;
+         	display: inline-block;        	     	
+         }
+         .home_notice{
+         	background: #fff;
+         }
+         .home_notice li{
+         	padding: 5px;
+         	display: inline-block;
+         }
+         .fa-angle-right{
+         	float:right;
+         	margin-right:200px;
+         	font-size: 16px;
+         }
+          .home_notice{
+          	margin-left: 12px;
+          }
+         .home_notice b{
+         	width: 4px;
+         	height: 4px;
+         	background: #666;
+         	border-radius: 100%;
+         	display: inline-block;
+         	margin-right:20px;
+         	
+         	
+         }
+         .ibox-tools{
+         	top:0;
+         	right:0;
+         }

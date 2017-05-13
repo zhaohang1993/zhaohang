@@ -1,0 +1,52 @@
+
+.acc2{
+    width: 100%;
+    padding:0 42px;
+    color:#000;
+    overflow: hidden; 
+    position: relative;
+    }
+    .font-gray{
+        color:#BABBB6;
+    }
+    .acc2_cen{
+        text-align: center;
+        margin-top: 18px;
+
+    }
+    .acc2_content{
+        margin-top: 30px;
+    }
+     .acc2_cen .heart{
+        position: absolute;
+        top:18px;
+        right:22px;
+     }
+     .acc2_indent{
+        margin-top: 30px;
+        text-indent: 2em;
+        line-height: 30px;
+        font-size: 14px;
+     }
+     .Enclosure{
+        padding-top: 230px;
+     }
+     .line-list{
+        color:#4E8DC0;
+        font-weight: bold;
+        text-decoration: underline;
+     }
+
+    .once{
+        position: absolute;
+        right:0;
+        bottom: 83px;
+        width: 25px;
+        height: 106px;
+        border: 2px solid #000;
+        text-align: center;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+
+ 

@@ -1,0 +1,62 @@
+.jdd_message{
+    	width: 800px;
+    	height: 800px;
+    	border: 1px solid #ccc;
+    	margin:50px auto;
+
+    }
+    .jmessage{
+    	margin-top: 20px;
+    	padding-left: 10px;
+    }
+   .jmessage textarea{
+	   	width: 640px;
+	   	height: 54px;
+	   	display: inline-block;
+   }
+
+    .tab-x{
+    	margin: 10px;
+    }
+    .jRemarks{
+    	padding-left: 10px;
+    	display: inline-block;
+    }
+    .jdd_message thead tr{
+    	border: 1px solid #ccc;
+    	
+    }
+    .jdd_message thead tr th{
+    	text-align: center;
+
+    }
+    
+
+    .jdd_message table tr{
+    	border: 1px solid #ccc;
+    	text-align: center;
+
+    }
+   .jdd_message table td{
+    	border: 1px solid #ccc;
+    	
+    }
+    .jdd_message table td img{
+    	width: 15px;
+    	height: 15px;
+    }
+    .jdd_add{
+    	margin-top: 10px;
+    	font-size:14px;
+	}
+	.jdd_add p img{
+		margin-right:6px;
+	}
+	.jdd_checkbox{
+		margin: 20px 0 0 10px;
+	}
+	.jdd_submit button{
+		margin-right:10px;
+		
+		
+	}

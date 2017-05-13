@@ -1,0 +1,52 @@
+.gray-bg{
+	background:#fff;
+}
+/* table 表格 */
+	.dial_tab{
+		margin-top: 40px;
+	}
+	.ibox-content{
+    	border: 1px solid #eee;
+    }
+    .ibox-content thead tr{
+    	border: 1px solid #eee;
+    }
+    .ibox-content thead th{
+    	border: 1px solid #eee;
+    }
+    .ibox-content tr{
+    	border: 1px solid #eee;
+    }
+    .ibox-content td{
+    	border: 1px solid #eee;
+    }
+    .record{
+    	padding-top: 10px;
+    	font-weight: bold;	
+    }
+   .dial_group{
+   	margin-left: 20px;
+   	background: #fff;
+   }
+  .dial_activity{
+  	margin:10px 0 0 15px;
+  	font-size: 14px;
+
+  }
+  .dial_activity_activity{
+  	margin-top: 50px;
+  }
+  .dial_text{
+  	width: 500px;
+  	border: none;
+  	border: 1px solid #eee;
+  	padding-left: 10px;
+  	outline: none;
+  }
+  #dial_state{
+  	width: 500px;
+  }
+  .dial_btn{
+		margin-top: 10px;
+		font-weight: bold;
+  }
